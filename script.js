@@ -1,5 +1,5 @@
 const images = ['image1.jpg', 'image2.jpg'];
-const divisions = [[4, 4], [3, 3]]; // 各画像の分割数
+const divisions = [[4, 4], [9, 9]]; // 各画像の分割数
 let currentIndex = 0;
 let locked = false;
 let cells = [];
