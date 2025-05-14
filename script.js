@@ -1,6 +1,6 @@
 const images = [
-  { src: "image-mask-app/photo1.jpg", rows: 4, cols: 4 },
-  { src: "image-mask-app/photo2.jpg", rows: 9, cols: 9 }
+  { src: "photo1.jpg", rows: 4, cols: 4 },
+  { src: "photo2.jpg", rows: 9, cols: 9 }
 ];
 
 let currentImageIndex = 0;
