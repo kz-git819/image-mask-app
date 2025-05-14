@@ -1,5 +1,5 @@
 
-const images = ["photo1.jpg", "photo2.jpg"];
+const images = ["image-mask-app/photo1.jpg", "image-mask-app/photo2.jpg"];
 let currentImageIndex = 0;
 let locked = false;
 
