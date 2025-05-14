@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>画像領域マスクアプリ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 id="title">第1問目</h1>
+  <div id="grid-container"></div>
+  <div class="controls">
+    <label for="rows">行数: <input type="number" id="rows" value="3" min="1" /></label>
+    <label for="cols">列数: <input type="number" id="cols" value="3" min="1" /></label>
+    <button onclick="applyGrid()">グリッド変更</button>
+    <button onclick="hideAll()">すべて隠す</button>
+    <button onclick="showAll()">すべて表示</button>
+    <button onclick="toggleLock()">ロック切替</button>
+    <button onclick="nextImage()">次の画像</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
